@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+float: left;
+background-color: blueviolet;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+nav{
+    width: 100%;
+    float: left;
+}
+.logo-part{
+width: 50%;
+
+float: left;
+}
+.logo-part img{
+    width: 100px;
+    height: 50px;
+}
+.manu-part{
+ width: 50%;
+text-align: end;
+ float: left;
+}
+.manu-part ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.manu-part ul li a{
+    text-decoration: none;
+    color: white;
+ 
+   
+}
+.hero-part{
+    width: 100%;
+    text-align: center;
+    
+}
+.hero-part h1{
+    font-size: 25px;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+}
+.hero-part a {
+ 
+    display: inline-block;
+    text-decoration: none;
+   
+   
+}
+    
+.hero-part a button{
+    background-color: rgb(255, 174, 0);
+    box-shadow: 2px 2px 2px 2px rgb(255, 174, 0) ;
+    color:white;
+    padding: 10px;
+    margin: 5px;
+
+}
+.head-line{
+    width: 100%;
+    padding: 20PX;
+    background-color: green;
+}
+.head-line h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+} 
+.head-line h2:after{
+    content: " ";
+    display: block;
+    border-top: 5px solid black;
+    width: 10%;
+    
+   
+}
+.head-line p{
+    color: white;
+   text-align: center;
+   padding: 20px;
+}
+.part-logo{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    float: left;
+    
+}
+
+.part1-logo{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    background-color: green;
+}
+.part1-logo p{
+    color: white;
+    text-align: center;
+}
+.fa-solid {
+color: red;
+padding: 15px;
+}
+
+.part2-logo{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    background-color: green;
+}
+.part2-logo p{
+    color: white;
+    text-align: center;
+}
+.fa {
+    color: red;
+    padding: 15px;
+    }
+.part3-logo{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    background-color: green;
+}
+.part3-logo p{
+    color: white;
+    text-align: center;
+}
+.fa {
+    color: red;
+    padding: 15px;
+    }
+
+.part4-logo{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    background-color: green;
+    
+}
+.part4-logo p{
+    color: white;
+    text-align: center;
+}
+.fa {
+    color: red;
+    padding: 15px;
+}
+section{ 
+    background-color: rgb(140, 0, 255);
+    width: 100%;
+  
+}
+.new-pera{
+    text-align: center;
+    color: white;  
+}
+.new-pera h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.new-pera p{
+    font-size: 20px;
+    padding: 20px;
+}
+.picture-part{
+    width: 100%;
+    margin: auto;
+    
+
+}
+.picture1-part ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    width: 24%;
+}
+.picture1-part ul li h1{
+    color: white;
+}
+.picture1-part ul li a {
+    color: red;
+    text-decoration: none;
+}
+.picture1-part ul li p{
+    color: white;
+    background-color: blue;
+}
+
+.picture1-part img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.percentage{
+    background-color: antiquewhite;
+}
+.skills{
+    width: 100%;
+}
+.skills h1{
+    text-align: center;
+    color:blue;
+}
+.skills p{
+    text-align: center;
+}
+.box{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    box-shadow: 0 30px 60px rgba(0,0,0,.2);
+}
+.box .percent{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.box .percent svg{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.box .percent svg circle{
+    height: 150px;
+    width: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px 5px);
+}
+.box .percent.number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex ;
+}
